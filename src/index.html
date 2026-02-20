@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Food Online From Chowdeck</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="shortcut icon" href="/image/image.webp" type="image/x-icon">
+    <!-- Basic Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+    <!-- Filled Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/filled/boxicons-filled.min.css" rel="stylesheet">
+    <!-- Brand Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="border-b border-b-gray-200">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex flex-row justify-between items-center">
+                <div class="flex flex-row items-center gap-2">
+                    <div>
+                        <img src="/image/image.webp" alt="logo" class="h-12 w-16 rounded-md">
+                    </div>
+                    <button
+                        class="w-full flex items-center px-4 py-3 bg-white border-0 cursor-pointer focus:outline-none">
+                        <i class='bxf bx-location text-xl text-green-500'></i>
+                        <span class="text-sm font-medium text-slate-700">Location</span>
+                        <i class='bx bx-chevron-down text-lg text-slate-800 chevron-close'></i>
+                    </button>
+                </div>
+                <div class="flex items-center gap-2">
+                    <p
+                        class="border-0 px-4 py-2 rounded-md bg-gray-100 hover:border-2 hover:border-green-700 flex items-center gap-0.5">
+                        <i class="bx bx-search-alt text-green-700 text-2xl"></i>
+                        <input type="text" placeholder="Search Chowdeck..."
+                            class="border-0 focus:outline-0 text-gray-500 text-sm">
+                    </p>
+                    <p class="bg-green-900 px-3 py-3 flex items-center rounded-full">
+                        <i class="bx bx-cart text-gray-50 text-xl"></i>
+                    </p>
+                    <p class="bg-green-900 px-3 py-3 flex items-center rounded-full">
+                        <i class="bx bx-user text-gray-50 text-xl"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4">
+        <div class="flex flex-col mt-8">
+            <div class="flex justify-between  items-center mt-6">
+                <h3 class="text-2xl">Explore Categories</h3>
+                <p class="flex items-center bg-green-800 px-4 py-2 text-white justify-center rounded-3xl gap-2">
+                    <span>
+                        Filter
+                    </span>
+                    <span class="inline-flex">
+                        <i class="bx bx-slider"></i>
+                    </span>
+                </p>
+            </div>
+            <div class="flex gap-6 mt-8">
+                <div
+                    class="group flex items-center justify-center flex-col bg-[#ffeaf1] rounded-2xl cursor-pointer hover:border-orange-500/60 py-3  px-3 w-28 h-26">
+                    <img src="/image/image (1).webp" alt="Restaurants"
+                        class="w-10 object-cover brightness-75 group-hover:brightness-90" />
+                    <p class="text-black font-light text-sm mt-1.5">
+                        Restaurants</p>
+                </div>
+                <div
+                    class="group flex items-center justify-center flex-col bg-[#fff8e4] rounded-2xl cursor-pointer hover:border-orange-500/60 py-3  px-3 w-28 h-26">
+                    <img src="/image/image (2).webp" alt="Restaurants"
+                        class="w-10 object-cover brightness-75 group-hover:brightness-90" />
+                    <p class="text-black font-light text-sm mt-1.5">
+                        Shops</p>
+                </div>
+                <div
+                    class="group flex items-center justify-center flex-col bg-[#ebf4ff] rounded-2xl cursor-pointer hover:border-orange-500/60 py-3  px-3 w-28 h-26">
+                    <img src="/image/pharmacy.svg" alt="Restaurants"
+                        class="w-10 object-cover brightness-75 group-hover:brightness-90" />
+                    <p class="text-black font-light text-sm mt-1.5">
+                        Pharmacy</p>
+                </div>
+                <div
+                    class="group flex items-center justify-center flex-col bg-[#e6f9f2] rounded-2xl cursor-pointer hover:border-orange-500/60 py-3  px-3 w-28 h-26">
+                    <img src="/image/image (3).webp" alt="Restaurants"
+                        class="w-10 object-cover brightness-75 group-hover:brightness-90" />
+                    <p class="text-black font-light text-sm mt-1.5">
+                        Local Markets</p>
+                </div>
+                <div
+                    class="group flex items-center justify-center flex-col bg-[#fff3ed] rounded-2xl cursor-pointer hover:border-orange-500/60 py-3  px-3 w-28 h-26">
+                    <img src="/image/image (4).webp" alt="Restaurants"
+                        class="w-10 object-cover brightness-75 group-hover:brightness-90" />
+                    <p class="text-black font-light text-sm mt-1.5">
+                        African Meals</p>
+                </div>
+                <div
+                    class="group flex items-center justify-center flex-col bg-[#e6f9f2] rounded-2xl cursor-pointer hover:border-orange-500/60 py-3  px-3 w-28 h-26">
+                    <img src="/image/image (5).webp" alt="Restaurants"
+                        class="w-10 object-cover brightness-75 group-hover:brightness-90" />
+                    <p class="text-black font-light text-sm mt-1.5">
+                        Healthy</p>
+                </div>
+                <div
+                    class="group flex items-center justify-center flex-col bg-[#fff8e4] rounded-2xl cursor-pointer hover:border-orange-500/60 py-3  px-3 w-28 h-26">
+                    <img src="/image/fit-fam.svg" alt="Restaurants"
+                        class="w-10 object-cover brightness-75 group-hover:brightness-90" />
+                    <p class="text-black font-light text-sm mt-1.5">
+                        Drinks</p>
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-2 gap-4 mt-8">
+            <div class="relative w-full">
+                <img src="/image/ai-generated-stunning-vibrant-heart-adorned-with-intricate-patterns-and-delicate-details-shines-in-a-rich-hue-exuding-warmth-and-love-essence-of-love-celebrating-valentine-s-day-photo.webp"
+                    alt="heart" class="h-52 w-full object-cover rounded-md">
+                <div class="absolute bottom-5 py-6 px-10 flex flex-col">
+                    <div class="flex items-center">
+                        <div>
+                            <h1 class="text-[#e5a7e6] text-sm">Chowdeck</h1>
+                            <p class="text-white text-2xl">Happy valentine's <br> day! <span class="text-[#e5a7e6]">shop
+                                    special <br> deals for you</span>
+                            </p>
+                        </div>
+                        <div>
+                            <img src="/image/image (6).webp" alt="image" class="h-28 w-40 ml-10">
+                        </div>
+                    </div>
+                    <p class="text-white text-xs">Exclusive discounts from Chicken Republic.Item7go. The place where
+                        BurgerKing and many more.</p>
+                </div>
+            </div>
+            <div class="relative w-full">
+                <img src="/image/360_F_1850452353_QxRrSzJ3jXmIjEOkYfArJo6Yd2mwfN6p.webp" alt="heart"
+                    class="h-52 w-full object-cover rounded-md">
+                <div class="absolute bottom-5">
+                    <div class="flex flex-row gap-1.5 py-8 px-10 items-center">
+                        <h1 class="text-7xl font-bold text-white flex flex-col">relay <span
+                                class="text-lg uppercase font-light">by Chowdeck</span></h1>
+                        <p class="text-xl text-white mt-4">send packages <br> easily with relay!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="py-10 overflow-x-hidden">
+            <div>
+                <h1 class="px-2 text-2xl flex items-center gap-2">Discount
+                    <span class="inline-flex">
+                        <i class="bxf bx-discount text-4xl text-green-900"></i>
+                    </span>
+                </h1>
+                <div class="flex gap-2 py-4 overflow-x-hidden mt-8">
+                    <div class="rounded-2xl  w-full hover:shadow-md cursor-pointer">
+                        <div class="relative w-lg px-4 py-2">
+                            <img src="/image/Coca-Cola-Burgers-3a-1024x683.webp" alt="coke"
+                                class="w-full object-cover rounded-md h-40">
+                            <div
+                                class="absolute top-4 left-6 bg-yellow-300 rounded-full w-7 h-7 flex items-center justify-center shadow z-50">
+                                <svg class="w-4 h-4" fill="#f59e0b" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>
+                            </div>
+                            <div
+                                class="absolute bottom-3 right-5 bg-white rounded-lg px-2 py-1 flex items-center gap-1 shadow z-10">
+                                <span class="text-lg">🎁</span>
+                                <span class="text-gray-500 font-800 text-xs font-bold">Up to 40% OFF!!!</span>
+                            </div>
+                        </div>
+                        <div class="px-4 pt-3 pb-4">
+                            <div class="flex items-center justify-between mt-8">
+                                <h2 class="text-gray-900 text-base">Scoop'd Ice Cream Bar ICM</h2>
+                                <div class="flex items-center">
+                                    <span class="text-gray-800 text-sm">4.51</span>
+                                    <svg class="w-4 h-4 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24">
+                                        <path
+                                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-1 mt-1 text-green-300 text-xs">
+                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polyline points="12 6 12 12 16 14" />
+                                </svg>
+                                <span class="text-gray-600">18 – 28 mins</span>
+                            </div>
+
+                            <div class="flex items-center gap-3 mt-3">
+                                <span class="text-green-300 font-bold text-xs tracking-wide">ICE CREAM</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PASTRY</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PROMOTIONS</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="rounded-2xl  w-full hover:shadow-md cursor-pointer">
+                        <div class="relative w-lg px-4 py-2">
+                            <img src="/image/Coca-Cola-Burgers-3a-1024x683.webp" alt="coke"
+                                class="w-full object-cover rounded-md h-40">
+                            <div
+                                class="absolute top-4 left-6 bg-yellow-300 rounded-full w-7 h-7 flex items-center justify-center shadow z-50">
+                                <svg class="w-4 h-4" fill="#f59e0b" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>
+                            </div>
+                            <div
+                                class="absolute bottom-3 right-5 bg-white rounded-lg px-2 py-1 flex items-center gap-1 shadow z-10">
+                                <span class="text-lg">🎁</span>
+                                <span class="text-gray-500 font-800 text-xs font-bold">Up to 40% OFF!!!</span>
+                            </div>
+                        </div>
+                        <div class="px-4 pt-3 pb-4">
+                            <div class="flex items-center justify-between mt-8">
+                                <h2 class="text-gray-900 text-base">Scoop'd Ice Cream Bar ICM</h2>
+                                <div class="flex items-center">
+                                    <span class="text-gray-800 text-sm">4.51</span>
+                                    <svg class="w-4 h-4 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24">
+                                        <path
+                                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-1 mt-1 text-green-300 text-xs">
+                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polyline points="12 6 12 12 16 14" />
+                                </svg>
+                                <span class="text-gray-600">18 – 28 mins</span>
+                            </div>
+
+                            <div class="flex items-center gap-3 mt-3">
+                                <span class="text-green-300 font-bold text-xs tracking-wide">ICE CREAM</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PASTRY</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PROMOTIONS</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="rounded-2xl  w-full hover:shadow-md cursor-pointer">
+                        <div class="relative w-lg px-4 py-2">
+                            <img src="/image/Coca-Cola-Burgers-3a-1024x683.webp" alt="coke"
+                                class="w-full object-cover rounded-md h-40">
+                            <div
+                                class="absolute top-4 left-6 bg-yellow-300 rounded-full w-7 h-7 flex items-center justify-center shadow z-50">
+                                <svg class="w-4 h-4" fill="#f59e0b" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>
+                            </div>
+                            <div
+                                class="absolute bottom-3 right-5 bg-white rounded-lg px-2 py-1 flex items-center gap-1 shadow z-10">
+                                <span class="text-lg">🎁</span>
+                                <span class="text-gray-500 font-800 text-xs font-bold">Up to 40% OFF!!!</span>
+                            </div>
+                        </div>
+                        <div class="px-4 pt-3 pb-4">
+                            <div class="flex items-center justify-between mt-8">
+                                <h2 class="text-gray-900 text-base">Scoop'd Ice Cream Bar ICM</h2>
+                                <div class="flex items-center">
+                                    <span class="text-gray-800 text-sm">4.51</span>
+                                    <svg class="w-4 h-4 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24">
+                                        <path
+                                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-1 mt-1 text-green-300 text-xs">
+                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polyline points="12 6 12 12 16 14" />
+                                </svg>
+                                <span class="text-gray-600">18 – 28 mins</span>
+                            </div>
+
+                            <div class="flex items-center gap-3 mt-3">
+                                <span class="text-green-300 font-bold text-xs tracking-wide">ICE CREAM</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PASTRY</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PROMOTIONS</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="rounded-2xl  w-full hover:shadow-md cursor-pointer">
+                        <div class="relative w-lg px-4 py-2">
+                            <img src="/image/Coca-Cola-Burgers-3a-1024x683.webp" alt="coke"
+                                class="w-full object-cover rounded-md h-40">
+                            <div
+                                class="absolute top-4 left-6 bg-yellow-300 rounded-full w-7 h-7 flex items-center justify-center shadow z-50">
+                                <svg class="w-4 h-4" fill="#f59e0b" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>
+                            </div>
+                            <div
+                                class="absolute bottom-3 right-5 bg-white rounded-lg px-2 py-1 flex items-center gap-1 shadow z-10">
+                                <span class="text-lg">🎁</span>
+                                <span class="text-gray-500 font-800 text-xs font-bold">Up to 40% OFF!!!</span>
+                            </div>
+                        </div>
+                        <div class="px-4 pt-3 pb-4">
+                            <div class="flex items-center justify-between mt-8">
+                                <h2 class="text-gray-900 text-base">Scoop'd Ice Cream Bar ICM</h2>
+                                <div class="flex items-center">
+                                    <span class="text-gray-800 text-sm">4.51</span>
+                                    <svg class="w-4 h-4 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24">
+                                        <path
+                                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-1 mt-1 text-green-300 text-xs">
+                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polyline points="12 6 12 12 16 14" />
+                                </svg>
+                                <span class="text-gray-600">18 – 28 mins</span>
+                            </div>
+
+                            <div class="flex items-center gap-3 mt-3">
+                                <span class="text-green-300 font-bold text-xs tracking-wide">ICE CREAM</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PASTRY</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PROMOTIONS</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="rounded-2xl  w-full hover:shadow-md cursor-pointer">
+                        <div class="relative w-lg px-4 py-2">
+                            <img src="/image/Coca-Cola-Burgers-3a-1024x683.webp" alt="coke"
+                                class="w-full object-cover rounded-md h-40">
+                            <div
+                                class="absolute top-4 left-6 bg-yellow-300 rounded-full w-7 h-7 flex items-center justify-center shadow z-50">
+                                <svg class="w-4 h-4" fill="#f59e0b" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>
+                            </div>
+                            <div
+                                class="absolute bottom-3 right-5 bg-white rounded-lg px-2 py-1 flex items-center gap-1 shadow z-10">
+                                <span class="text-lg">🎁</span>
+                                <span class="text-gray-500 font-800 text-xs font-bold">Up to 40% OFF!!!</span>
+                            </div>
+                        </div>
+                        <div class="px-4 pt-3 pb-4">
+                            <div class="flex items-center justify-between mt-8">
+                                <h2 class="text-gray-900 text-base">Scoop'd Ice Cream Bar ICM</h2>
+                                <div class="flex items-center">
+                                    <span class="text-gray-800 text-sm">4.51</span>
+                                    <svg class="w-4 h-4 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24">
+                                        <path
+                                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-1 mt-1 text-green-300 text-xs">
+                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polyline points="12 6 12 12 16 14" />
+                                </svg>
+                                <span class="text-gray-600">18 – 28 mins</span>
+                            </div>
+
+                            <div class="flex items-center gap-3 mt-3">
+                                <span class="text-green-300 font-bold text-xs tracking-wide">ICE CREAM</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PASTRY</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PROMOTIONS</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="rounded-2xl  w-full hover:shadow-md cursor-pointer">
+                        <div class="relative w-lg px-4 py-2">
+                            <img src="/image/Coca-Cola-Burgers-3a-1024x683.webp" alt="coke"
+                                class="w-full object-cover rounded-md h-40">
+                            <div
+                                class="absolute top-4 left-6 bg-yellow-300 rounded-full w-7 h-7 flex items-center justify-center shadow z-50">
+                                <svg class="w-4 h-4" fill="#f59e0b" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>
+                            </div>
+                            <div
+                                class="absolute bottom-3 right-5 bg-white rounded-lg px-2 py-1 flex items-center gap-1 shadow z-10">
+                                <span class="text-lg">🎁</span>
+                                <span class="text-gray-500 font-800 text-xs font-bold">Up to 40% OFF!!!</span>
+                            </div>
+                        </div>
+                        <div class="px-4 pt-3 pb-4">
+                            <div class="flex items-center justify-between mt-8">
+                                <h2 class="text-gray-900 text-base">Scoop'd Ice Cream Bar ICM</h2>
+                                <div class="flex items-center">
+                                    <span class="text-gray-800 text-sm">4.51</span>
+                                    <svg class="w-4 h-4 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24">
+                                        <path
+                                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-1 mt-1 text-green-300 text-xs">
+                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polyline points="12 6 12 12 16 14" />
+                                </svg>
+                                <span class="text-gray-600">18 – 28 mins</span>
+                            </div>
+
+                            <div class="flex items-center gap-3 mt-3">
+                                <span class="text-green-300 font-bold text-xs tracking-wide">ICE CREAM</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PASTRY</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PROMOTIONS</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="py-10 mt-8">
+            <div>
+                <h1 class="px-2 text-2xl flex items-center gap-2">All Restuarants
+                </h1>
+                <div class="grid grid-cols-3 gap-4 py-4 mt-8">
+                    <div class="rounded-2xl  w-full hover:shadow-md cursor-pointer">
+                        <div class="relative px-4 py-2">
+                            <img src="https://imgs.search.brave.com/jRcliSnWeO89Q9IwJxdzQpG1yKx52Pi2pPGrtAIbh04/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucGV4ZWxzLmNv/bS9waG90b3MvMTI1/MTM5Ny9wZXhlbHMt/cGhvdG8tMTI1MTM5/Ny5qcGVnP2F1dG89/Y29tcHJlc3MmY3M9/dGlueXNyZ2ImZHBy/PTEmdz01MDA" alt="coke"
+                                class="w-full object-cover rounded-md h-40">
+                            <div
+                                class="absolute top-4 left-6 bg-yellow-300 rounded-full w-7 h-7 flex items-center justify-center shadow z-50">
+                                <svg class="w-4 h-4" fill="#f59e0b" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>
+                            </div>
+                            <div
+                                class="absolute bottom-3 right-5 bg-white rounded-lg px-2 py-1 flex items-center gap-1 shadow z-10">
+                                <span class="text-lg">🎁</span>
+                                <span class="text-gray-500 font-800 text-xs font-bold">Up to 40% OFF!!!</span>
+                            </div>
+                        </div>
+                        <div class="px-4 pt-3 pb-4">
+                            <div class="flex items-center justify-between mt-8">
+                                <h2 class="text-gray-900 text-base">Xpressgifts</h2>
+                                <div class="flex items-center">
+                                    <span class="text-gray-800 text-sm">4.51</span>
+                                    <svg class="w-4 h-4 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24">
+                                        <path
+                                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-1 mt-1 text-green-300 text-xs">
+                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polyline points="12 6 12 12 16 14" />
+                                </svg>
+                                <span class="text-gray-600">18 – 28 mins</span>
+                            </div>
+
+                            <div class="flex items-center gap-3 mt-3">
+                                <span class="text-green-300 font-bold text-xs tracking-wide">ICE CREAM</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PASTRY</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PROMOTIONS</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="rounded-2xl  w-full hover:shadow-md cursor-pointer">
+                        <div class="relative px-4 py-2">
+                            <img src="https://imgs.search.brave.com/YN8zcWAnJar3INCo9onOs-LqJwlYs6Y5W59PQt4WU-U/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTY4/NDEzNzAyL3Bob3Rv/L2x1eHVyeS1taWxr/LWFuZC1kYXJrLWNo/b2NvbGF0ZS10cnVm/Zmxlcy5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9empVbUQ0/REpjYjJXNU5xWEtW/aHRST19WMWkzZ1df/VGxwMVRZLU51Mllt/QT0" alt="coke"
+                                class="w-full object-cover rounded-md h-40">
+                            <div
+                                class="absolute top-4 left-6 bg-yellow-300 rounded-full w-7 h-7 flex items-center justify-center shadow z-50">
+                                <svg class="w-4 h-4" fill="#f59e0b" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>
+                            </div>
+                            <div
+                                class="absolute bottom-3 right-5 bg-white rounded-lg px-2 py-1 flex items-center gap-1 shadow z-10">
+                                <span class="text-lg">🎁</span>
+                                <span class="text-gray-500 font-800 text-xs font-bold">Up to 40% OFF!!!</span>
+                            </div>
+                        </div>
+                        <div class="px-4 pt-3 pb-4">
+                            <div class="flex items-center justify-between mt-8">
+                                <h2 class="text-gray-900 text-base">Chocolate Shisha Store NG</h2>
+                                <div class="flex items-center">
+                                    <span class="text-gray-800 text-sm">4.51</span>
+                                    <svg class="w-4 h-4 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24">
+                                        <path
+                                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-1 mt-1 text-green-300 text-xs">
+                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polyline points="12 6 12 12 16 14" />
+                                </svg>
+                                <span class="text-gray-600">18 – 28 mins</span>
+                            </div>
+
+                            <div class="flex items-center gap-3 mt-3">
+                                <span class="text-green-300 font-bold text-xs tracking-wide">ICE CREAM</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PASTRY</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PROMOTIONS</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="rounded-2xl  w-full hover:shadow-md cursor-pointer">
+                        <div class="relative px-4 py-2">
+                            <img src="/image/Coca-Cola-Burgers-3a-1024x683.webp" alt="coke"
+                                class="w-full object-cover rounded-md h-40">
+                            <div
+                                class="absolute top-4 left-6 bg-yellow-300 rounded-full w-7 h-7 flex items-center justify-center shadow z-50">
+                                <svg class="w-4 h-4" fill="#f59e0b" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>
+                            </div>
+                            <div
+                                class="absolute bottom-3 right-5 bg-white rounded-lg px-2 py-1 flex items-center gap-1 shadow z-10">
+                                <span class="text-lg">🎁</span>
+                                <span class="text-gray-500 font-800 text-xs font-bold">Up to 40% OFF!!!</span>
+                            </div>
+                        </div>
+                        <div class="px-4 pt-3 pb-4">
+                            <div class="flex items-center justify-between mt-8">
+                                <h2 class="text-gray-900 text-base">Scoop'd Ice Cream Bar ICM</h2>
+                                <div class="flex items-center">
+                                    <span class="text-gray-800 text-sm">4.51</span>
+                                    <svg class="w-4 h-4 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24">
+                                        <path
+                                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-1 mt-1 text-green-300 text-xs">
+                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polyline points="12 6 12 12 16 14" />
+                                </svg>
+                                <span class="text-gray-600">18 – 28 mins</span>
+                            </div>
+
+                            <div class="flex items-center gap-3 mt-3">
+                                <span class="text-green-300 font-bold text-xs tracking-wide">ICE CREAM</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PASTRY</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PROMOTIONS</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="rounded-2xl  w-full hover:shadow-md cursor-pointer">
+                        <div class="relative px-4 py-2">
+                            <img src="/image/Coca-Cola-Burgers-3a-1024x683.webp" alt="coke"
+                                class="w-full object-cover rounded-md h-40">
+                            <div
+                                class="absolute top-4 left-6 bg-yellow-300 rounded-full w-7 h-7 flex items-center justify-center shadow z-50">
+                                <svg class="w-4 h-4" fill="#f59e0b" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>
+                            </div>
+                            <div
+                                class="absolute bottom-3 right-5 bg-white rounded-lg px-2 py-1 flex items-center gap-1 shadow z-10">
+                                <span class="text-lg">🎁</span>
+                                <span class="text-gray-500 font-800 text-xs font-bold">Up to 40% OFF!!!</span>
+                            </div>
+                        </div>
+                        <div class="px-4 pt-3 pb-4">
+                            <div class="flex items-center justify-between mt-8">
+                                <h2 class="text-gray-900 text-base">Scoop'd Ice Cream Bar ICM</h2>
+                                <div class="flex items-center">
+                                    <span class="text-gray-800 text-sm">4.51</span>
+                                    <svg class="w-4 h-4 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24">
+                                        <path
+                                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-1 mt-1 text-green-300 text-xs">
+                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polyline points="12 6 12 12 16 14" />
+                                </svg>
+                                <span class="text-gray-600">18 – 28 mins</span>
+                            </div>
+
+                            <div class="flex items-center gap-3 mt-3">
+                                <span class="text-green-300 font-bold text-xs tracking-wide">ICE CREAM</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PASTRY</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PROMOTIONS</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="rounded-2xl  w-full hover:shadow-md cursor-pointer">
+                        <div class="relative px-4 py-2">
+                            <img src="/image/Coca-Cola-Burgers-3a-1024x683.webp" alt="coke"
+                                class="w-full object-cover rounded-md h-40">
+                            <div
+                                class="absolute top-4 left-6 bg-yellow-300 rounded-full w-7 h-7 flex items-center justify-center shadow z-50">
+                                <svg class="w-4 h-4" fill="#f59e0b" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>
+                            </div>
+                            <div
+                                class="absolute bottom-3 right-5 bg-white rounded-lg px-2 py-1 flex items-center gap-1 shadow z-10">
+                                <span class="text-lg">🎁</span>
+                                <span class="text-gray-500 font-800 text-xs font-bold">Up to 40% OFF!!!</span>
+                            </div>
+                        </div>
+                        <div class="px-4 pt-3 pb-4">
+                            <div class="flex items-center justify-between mt-8">
+                                <h2 class="text-gray-900 text-base">Scoop'd Ice Cream Bar ICM</h2>
+                                <div class="flex items-center">
+                                    <span class="text-gray-800 text-sm">4.51</span>
+                                    <svg class="w-4 h-4 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24">
+                                        <path
+                                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-1 mt-1 text-green-300 text-xs">
+                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polyline points="12 6 12 12 16 14" />
+                                </svg>
+                                <span class="text-gray-600">18 – 28 mins</span>
+                            </div>
+
+                            <div class="flex items-center gap-3 mt-3">
+                                <span class="text-green-300 font-bold text-xs tracking-wide">ICE CREAM</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PASTRY</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PROMOTIONS</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="rounded-2xl  w-full hover:shadow-md cursor-pointer">
+                        <div class="relative px-4 py-2">
+                            <img src="/image/Coca-Cola-Burgers-3a-1024x683.webp" alt="coke"
+                                class="w-full object-cover rounded-md h-40">
+                            <div
+                                class="absolute top-4 left-6 bg-yellow-300 rounded-full w-7 h-7 flex items-center justify-center shadow z-50">
+                                <svg class="w-4 h-4" fill="#f59e0b" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>
+                            </div>
+                            <div
+                                class="absolute bottom-3 right-5 bg-white rounded-lg px-2 py-1 flex items-center gap-1 shadow z-10">
+                                <span class="text-lg">🎁</span>
+                                <span class="text-gray-500 font-800 text-xs font-bold">Up to 40% OFF!!!</span>
+                            </div>
+                        </div>
+                        <div class="px-4 pt-3 pb-4">
+                            <div class="flex items-center justify-between mt-8">
+                                <h2 class="text-gray-900 text-base">Scoop'd Ice Cream Bar ICM</h2>
+                                <div class="flex items-center">
+                                    <span class="text-gray-800 text-sm">4.51</span>
+                                    <svg class="w-4 h-4 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24">
+                                        <path
+                                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-1 mt-1 text-green-300 text-xs">
+                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polyline points="12 6 12 12 16 14" />
+                                </svg>
+                                <span class="text-gray-600">18 – 28 mins</span>
+                            </div>
+
+                            <div class="flex items-center gap-3 mt-3">
+                                <span class="text-green-300 font-bold text-xs tracking-wide">ICE CREAM</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PASTRY</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PROMOTIONS</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="rounded-2xl  w-full hover:shadow-md cursor-pointer">
+                        <div class="relative px-4 py-2">
+                            <img src="https://imgs.search.brave.com/L4goiyNvQ0YKbyIYWa22OUXD8ZGTAr-AF8AXKJCb2jM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/Y29sZHN0b25lY3Jl/YW1lcnkuY29tL2Fz/c2V0cy9pbWcvcHJv/ZHVjdHMvc2lnbmF0/dXJlY3JlYXRpb25z/L3NpZ25hdHVyZWNy/ZWF0aW9ucy5qcGc" alt="coke"
+                                class="w-full object-cover rounded-md h-40">
+                            <div
+                                class="absolute top-4 left-6 bg-yellow-300 rounded-full w-7 h-7 flex items-center justify-center shadow z-50">
+                                <svg class="w-4 h-4" fill="#f59e0b" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>
+                            </div>
+                            <div
+                                class="absolute bottom-3 right-5 bg-white rounded-lg px-2 py-1 flex items-center gap-1 shadow z-10">
+                                <span class="text-lg">🎁</span>
+                                <span class="text-gray-500 font-800 text-xs font-bold">Up to 40% OFF!!!</span>
+                            </div>
+                        </div>
+                        <div class="px-4 pt-3 pb-4">
+                            <div class="flex items-center justify-between mt-8">
+                                <h2 class="text-gray-900 text-base">Cold Stone Creamery-Aromire</h2>
+                                <div class="flex items-center">
+                                    <span class="text-gray-800 text-sm">4.51</span>
+                                    <svg class="w-4 h-4 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24">
+                                        <path
+                                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-1 mt-1 text-green-300 text-xs">
+                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polyline points="12 6 12 12 16 14" />
+                                </svg>
+                                <span class="text-gray-600">18 – 28 mins</span>
+                            </div>
+
+                            <div class="flex items-center gap-3 mt-3">
+                                <span class="text-green-300 font-bold text-xs tracking-wide">ICE CREAM</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PASTRY</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PROMOTIONS</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="rounded-2xl  w-full hover:shadow-md cursor-pointer">
+                        <div class="relative px-4 py-2">
+                            <img src="https://imgs.search.brave.com/Wk6EnEzKkZDcuTsR0H7DtaLWxqWdaDqFokndnjRm8Hw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMzkv/NDMwLzc4NS9zbWFs/bC9jb29raW5nLXRy/YWRpdGlvbmFsLXBp/ZXMtd2l0aC1taW5j/ZWQtbWVhdC1waG90/by5qcGc" alt="coke"
+                                class="w-full object-cover rounded-md h-40">
+                            <div
+                                class="absolute top-4 left-6 bg-yellow-300 rounded-full w-7 h-7 flex items-center justify-center shadow z-50">
+                                <svg class="w-4 h-4" fill="#f59e0b" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>
+                            </div>
+                            <div
+                                class="absolute bottom-3 right-5 bg-white rounded-lg px-2 py-1 flex items-center gap-1 shadow z-10">
+                                <span class="text-lg">🎁</span>
+                                <span class="text-gray-500 font-800 text-xs font-bold">Up to 40% OFF!!!</span>
+                            </div>
+                        </div>
+                        <div class="px-4 pt-3 pb-4">
+                            <div class="flex items-center justify-between mt-8">
+                                <h2 class="text-gray-900 text-base">Pie Xpress-Allen</h2>
+                                <div class="flex items-center">
+                                    <span class="text-gray-800 text-sm">4.51</span>
+                                    <svg class="w-4 h-4 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24">
+                                        <path
+                                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-1 mt-1 text-green-300 text-xs">
+                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polyline points="12 6 12 12 16 14" />
+                                </svg>
+                                <span class="text-gray-600">18 – 28 mins</span>
+                            </div>
+
+                            <div class="flex items-center gap-3 mt-3">
+                                <span class="text-green-300 font-bold text-xs tracking-wide">ICE CREAM</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PASTRY</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PROMOTIONS</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="rounded-2xl  w-full hover:shadow-md cursor-pointer">
+                        <div class="relative px-4 py-2">
+                            <img src="https://imgs.search.brave.com/CyTo7Lb5I22o1JNcButbKolU8H1yHjJNGDpOhT7gfKU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTM4/OTcyMzA4NS9waG90/by9zYW4tYW5zZWxt/by1jYWxpZm9ybmlh/LWluLXRoaXMtcGhv/dG8taWxsdXN0cmF0/aW9uLWEtYnVyZ2Vy/LWtpbmctd2hvcHBl/ci1oYW1idXJnZXIt/aXMuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPXJMTWJpbWpa/a3RlV0VKY1k2dTFv/bmQ2Vm5RZGoyR09i/UG1lX2pmZjIxZWM9" alt="coke"
+                                class="w-full object-cover rounded-md h-40">
+                            <div
+                                class="absolute top-4 left-6 bg-yellow-300 rounded-full w-7 h-7 flex items-center justify-center shadow z-50">
+                                <svg class="w-4 h-4" fill="#f59e0b" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>
+                            </div>
+                            <div
+                                class="absolute bottom-3 right-5 bg-white rounded-lg px-2 py-1 flex items-center gap-1 shadow z-10">
+                                <span class="text-lg">🎁</span>
+                                <span class="text-gray-500 font-800 text-xs font-bold">Up to 40% OFF!!!</span>
+                            </div>
+                        </div>
+                        <div class="px-4 pt-3 pb-4">
+                            <div class="flex items-center justify-between mt-8">
+                                <h2 class="text-gray-900 text-base">Burger-King ICM</h2>
+                                <div class="flex items-center">
+                                    <span class="text-gray-800 text-sm">4.51</span>
+                                    <svg class="w-4 h-4 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24">
+                                        <path
+                                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-1 mt-1 text-green-300 text-xs">
+                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polyline points="12 6 12 12 16 14" />
+                                </svg>
+                                <span class="text-gray-600">18 – 28 mins</span>
+                            </div>
+
+                            <div class="flex items-center gap-3 mt-3">
+                                <span class="text-green-300 font-bold text-xs tracking-wide">ICE CREAM</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PASTRY</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PROMOTIONS</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="rounded-2xl  w-full hover:shadow-md cursor-pointer">
+                        <div class="relative px-4 py-2">
+                            <img src="https://imgs.search.brave.com/TYSyqw09t74V_37DGMiJseRTDhwHKuChYBY2OorpGT8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA5Lzg4LzAzLzc2/LzM2MF9GXzk4ODAz/NzYxN19BckI3S3lR/WUNkMHBkZ0RLS0Ux/TzB6b3pmOWV0WHln/Ri5qcGc" alt="coke"
+                                class="w-full object-cover rounded-md h-40">
+                            <div
+                                class="absolute top-4 left-6 bg-yellow-300 rounded-full w-7 h-7 flex items-center justify-center shadow z-50">
+                                <svg class="w-4 h-4" fill="#f59e0b" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>
+                            </div>
+                            <div
+                                class="absolute bottom-3 right-5 bg-white rounded-lg px-2 py-1 flex items-center gap-1 shadow z-10">
+                                <span class="text-lg">🎁</span>
+                                <span class="text-gray-500 font-800 text-xs font-bold">Up to 40% OFF!!!</span>
+                            </div>
+                        </div>
+                        <div class="px-4 pt-3 pb-4">
+                            <div class="flex items-center justify-between mt-8">
+                                <h2 class="text-gray-900 text-base">Pinkberry-Aromire</h2>
+                                <div class="flex items-center">
+                                    <span class="text-gray-800 text-sm">4.51</span>
+                                    <svg class="w-4 h-4 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24">
+                                        <path
+                                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-1 mt-1 text-green-300 text-xs">
+                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polyline points="12 6 12 12 16 14" />
+                                </svg>
+                                <span class="text-gray-600">18 – 28 mins</span>
+                            </div>
+
+                            <div class="flex items-center gap-3 mt-3">
+                                <span class="text-green-300 font-bold text-xs tracking-wide">ICE CREAM</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PASTRY</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PROMOTIONS</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="rounded-2xl  w-full hover:shadow-md cursor-pointer">
+                        <div class="relative px-4 py-2">
+                            <img src="https://imgs.search.brave.com/LKRO-r4lM1GtBN8gGl8X57A1x0RFvkkNRDsAUuRyse8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNjkv/NzU2LzQ3NS9zbWFs/bC9mbGFreS1wYXN0/cnktZmlsbGVkLXdp/dGgtc2F2b3J5LWJl/ZWYtdGhpcy1jbGFz/c2ljLW1lYXQtcGll/LW9mZmVycy1kZWxp/Y2lvdXMtdGFzdGUt/ZXhwZXJpZW5jZS1m/cmVlLXBob3RvLmpw/ZWc" alt="coke"
+                                class="w-full object-cover rounded-md h-40">
+                            <div
+                                class="absolute top-4 left-6 bg-yellow-300 rounded-full w-7 h-7 flex items-center justify-center shadow z-50">
+                                <svg class="w-4 h-4" fill="#f59e0b" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>
+                            </div>
+                            <div
+                                class="absolute bottom-3 right-5 bg-white rounded-lg px-2 py-1 flex items-center gap-1 shadow z-10">
+                                <span class="text-lg">🎁</span>
+                                <span class="text-gray-500 font-800 text-xs font-bold">Up to 40% OFF!!!</span>
+                            </div>
+                        </div>
+                        <div class="px-4 pt-3 pb-4">
+                            <div class="flex items-center justify-between mt-8">
+                                <h2 class="text-gray-900 text-base">Nelson's Grills and Buffeteria</h2>
+                                <div class="flex items-center">
+                                    <span class="text-gray-800 text-sm">4.51</span>
+                                    <svg class="w-4 h-4 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24">
+                                        <path
+                                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-1 mt-1 text-green-300 text-xs">
+                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polyline points="12 6 12 12 16 14" />
+                                </svg>
+                                <span class="text-gray-600">18 – 28 mins</span>
+                            </div>
+
+                            <div class="flex items-center gap-3 mt-3">
+                                <span class="text-green-300 font-bold text-xs tracking-wide">ICE CREAM</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PASTRY</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PROMOTIONS</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="rounded-2xl  w-full hover:shadow-md cursor-pointer">
+                        <div class="relative px-4 py-2">
+                            <img src="https://imgs.search.brave.com/pnzOPfjnUGU1S3_tZf8-KPm_3lSUuyjEQVqtyaaZiso/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2htZy1wcm9k/L2ltYWdlcy9iZXN0/LWRvdWdobnV0LXJl/Y2lwZXMtZ2xhemVk/LTY2Y2RkZWQ4MTMx/NmYuanBnP2Nyb3A9/MC41NjN4dzoxLjAw/eGg7MC4yNTV4dyww" alt="coke"
+                                class="w-full object-cover rounded-md h-40">
+                            <div
+                                class="absolute top-4 left-6 bg-yellow-300 rounded-full w-7 h-7 flex items-center justify-center shadow z-50">
+                                <svg class="w-4 h-4" fill="#f59e0b" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>
+                            </div>
+                            <div
+                                class="absolute bottom-3 right-5 bg-white rounded-lg px-2 py-1 flex items-center gap-1 shadow z-10">
+                                <span class="text-lg">🎁</span>
+                                <span class="text-gray-500 font-800 text-xs font-bold">Up to 40% OFF!!!</span>
+                            </div>
+                        </div>
+                        <div class="px-4 pt-3 pb-4">
+                            <div class="flex items-center justify-between mt-8">
+                                <h2 class="text-gray-900 text-base">Krispy Kreme-ICM</h2>
+                                <div class="flex items-center">
+                                    <span class="text-gray-800 text-sm">4.51</span>
+                                    <svg class="w-4 h-4 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24">
+                                        <path
+                                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-1 mt-1 text-green-300 text-xs">
+                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polyline points="12 6 12 12 16 14" />
+                                </svg>
+                                <span class="text-gray-600">18 – 28 mins</span>
+                            </div>
+
+                            <div class="flex items-center gap-3 mt-3">
+                                <span class="text-green-300 font-bold text-xs tracking-wide">ICE CREAM</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PASTRY</span>
+                                <span class="text-green-300 font-bold text-xs tracking-wide">PROMOTIONS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center flex justify-center items-center-safe mt-8 ">
+                    <button
+                        class="border border-green-400 rounded-md text-sm text-green-400 px-4 py-2 cursor-pointer">view
+                        more</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="border-t border-gray-200">
+        <div class="max-w-6xl mx-auto px-4 py-16 flex justify-between items-start">
+
+            <div>
+                <img src="/image/image (7).webp" alt="footer logo">
+            </div>
+            <div class="flex gap-20 ">
+
+                <div>
+                    <h4 class="text-xs font-semibold uppercase tracking-widest text-gray-900 mb-5">Locations</h4>
+                    <ul class="flex flex-col gap-3.5">
+                        <li><a href="#" class="text-gray-500 text-sm hover:text-[#0d4f3c] transition-colors">Community
+                                25</a></li>
+                        <li><a href="#" class="text-gray-500 text-sm hover:text-[#0d4f3c] transition-colors">NYSC Camp
+                                Iseyin</a></li>
+                        <li><a href="#" class="text-gray-500 text-sm hover:text-[#0d4f3c] transition-colors">Enugu Nysc
+                                camp</a></li>
+                        <li><a href="#" class="text-gray-500 text-sm hover:text-[#0d4f3c] transition-colors">Benin Nysc
+                                camp</a></li>
+                        <li><a href="#" class="text-gray-500 text-sm hover:text-[#0d4f3c] transition-colors">Port
+                                harcourt Nysc camp</a></li>
+                        <li><a href="#" class="text-gray-500 text-sm hover:text-[#0d4f3c] transition-colors">Jos Nysc
+                                Camp</a></li>
+                        <li><a href="#" class="text-sm text-[#0d4f3c] underline hover:opacity-80 transition-opacity">See
+                                more</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-xs font-semibold uppercase tracking-widest text-gray-900 mb-5">Download</h4>
+                    <ul class="flex flex-col gap-3.5">
+                        <li><a href="#" class="text-gray-500 text-sm hover:text-[#0d4f3c] transition-colors">Google Play
+                                Store</a></li>
+                        <li><a href="#" class="text-gray-500 text-sm hover:text-[#0d4f3c] transition-colors">iOS App
+                                Store</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-xs font-semibold uppercase tracking-widest text-gray-900 mb-5">Get Help</h4>
+                    <ul class="flex flex-col gap-3.5">
+                        <li><a href="#" class="text-gray-500 text-sm hover:text-[#0d4f3c] transition-colors">Email</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-xs font-semibold uppercase tracking-widest text-gray-900 mb-5">Legal</h4>
+                    <ul class="flex flex-col gap-3.5">
+                        <li><a href="#" class="text-gray-500 text-sm hover:text-[#0d4f3c] transition-colors">Privacy
+                                Policy</a></li>
+                        <li><a href="#" class="text-gray-500 text-sm hover:text-[#0d4f3c] transition-colors">Terms of
+                                use</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="border-t border-gray-200">
+            <div class="max-w-6xl mx-auto px-10 py-5 flex items-center justify-between">
+                <p class="text-sm text-gray-400">© 2022, Chowdeck.</p>
+
+                <div class="flex items-center gap-5">
+                    <a href="#" aria-label="Facebook" class="text-gray-400 hover:text-gray-600 transition-colors">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Instagram" class="text-gray-400 hover:text-gray-600 transition-colors">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" />
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Twitter" class="text-gray-400 hover:text-gray-600 transition-colors">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
